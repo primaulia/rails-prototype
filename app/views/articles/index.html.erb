@@ -1,2 +1,7 @@
 <h1>All Articles</h1>
+
+<% @articles.each do |article| %>
+  <pre><%= article.inspect %></pre>
+<% end %>
+
 <p>List all articles below</p>
