@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'welcome/index'
   get 'faq/index'
 
-  resources :comment
+  resources :comments
 
   root 'welcome#index'
 
