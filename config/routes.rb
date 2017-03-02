@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'faq/index'
 
   resources :articles
+  resources :users
 
   root 'welcome#index'
 
