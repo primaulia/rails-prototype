@@ -1,2 +1,7 @@
 <h1>All comments</h1>
+
+<% @comments.each do |comment| %>
+  <pre> <%= comment.inspect %> </pre>
+<% end %>
+
 <p>Show all comments</p>
